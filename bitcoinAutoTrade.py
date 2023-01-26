@@ -5,14 +5,10 @@ import requests
 import schedule
 from fbprophet import Prophet
 
-# # myMac
-# access = "3vC7Q12XjxlmzckKZ7elpnDX4laOGvdpWDg1c1SX"
-# secret = "ZHxx7UViBtl6xJ74LzF7C1oH0cQtELw4tBNzGuNJ"
-
 # aws
-access = "Vb3EGJHx828DGGnAEVYVMVXaPenMEQBqYZNZH7ka"
-secret = "PHVq2FGGexV0eyf7qMW6IlrsBk7apY4TND9fTSfl"
-myToken = "xoxb-2585809791476-2607309626928-ZcQjp0QyF2YTYgmmXrdx66Lk"
+access = ""
+secret = ""
+myToken = ""
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
